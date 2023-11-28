@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Timer</title>
+    <link rel="stylesheet" href="css/timer.css">
+</head>
+<body>
+    <video id="video_background" preload="auto" muted="muted" volume="0">
+        <source src="/assets/video.mp4" type="video/mp4">
+    </video>
+    <a href="index.html">menu</a>
+    <h3 id="top">Temps Restant : <time id='timerTexte' datetime="00:00:00">00:00:00</time></h3>
+    <div id="form">
+        <label for="timer">Temps du Minuteur :</label>
+        <input type="text" id="timer" pattern="^(0\d|1\d|2[0-3]):([0-5]\d):([0-5]\d)$" placeholder="hh:mm:ss" title="Veuillez entrer une heure entre 00:00:00 et 99:59:59" required>
+        <small id="small">Le format doit être heure:minutes:secondes en numérique</small>
+        <button id="timerBtn" type="submit" disabled>Play</button>
+    </div>
+    <button id="conf">?? CONFETTIS ??</button>
+    <script src="js/timer.js"></script>
+</body>
+</html>

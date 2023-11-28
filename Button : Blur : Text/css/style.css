@@ -1,0 +1,68 @@
+body{
+    height: 80vh;
+    width: 99%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-size: medium;
+}
+
+.buttonZone__button__inside{
+    height: 50px;
+    width: 50px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: .4;
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    outline: 2px solid #fff;
+      outline-offset: 2px;
+    border-radius: 100px;
+    aspect-ratio: 1;
+    transform-origin: 25px 25px;
+    transition: color 1s, border 1s, opacity 1.8s, transform .4s;
+}
+
+.buttonZone{
+    width: 60vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.buttonZone__button{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    aspect-ratio: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px dashed #22FF23; */
+}
+
+.buttonZone__button:hover > *{
+    opacity: 1;
+}
+
+.buttonZone__button:first-child > .buttonZone__button__inside:hover{
+    color: blue; 
+    border: 2px solid blue;
+}
+
+.buttonZone__button:nth-child(2) > .buttonZone__button__inside:hover{
+    color: red; 
+    border: 2px solid red;
+}
+
+.buttonZone__button:last-child > .buttonZone__button__inside:hover{
+    color: green; 
+    border: 2px solid green;
+}
