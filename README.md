@@ -9,7 +9,7 @@ Use this project to explore, experiment, or enhance your skills.
 Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/votre-utilisateur/frontend-playground.git
+   git clone https://github.com/Tchoup77çà/frontend-playground.git
    ```
 
 ## Usage
