@@ -1,26 +1,27 @@
 # Frontend Playground
 
-Ce projet a pour but de fournir un terrain d'entraînement pour le développement front-end. Il inclut plusieurs petits composants tels que du texte, des boutons, des toggle, des cases à cocher, et d'autres éléments d'entrée/sortie. 
-Utilisez ce projet pour explorer, expérimenter ou vous améliorer.
+This project aims to provide a training ground for front-end development. 
+It includes several small components such as text, buttons, toggles, checkboxes, and other input/output elements.
+Use this project to explore, experiment, or enhance your skills.
 
 ## Installation
 
-Clonez ce dépôt sur votre machine locale :
+Clone this repository to your local machine:
 
    ```bash
    git clone https://github.com/votre-utilisateur/frontend-playground.git
    ```
 
-## Utilisation
+## Usage
 
-Explorez les composants inclus dans le projet en ouvrant le fichier `index.html`. Chaque composant est autonome et peut être modifié pour voir instantanément les changements.
+Explore the components included in the project by opening the `index.html` file. Each component is self-contained and can be modified to see changes instantly.
 
 ## Issues
 
-Si vous rencontrez des problèmes, avez des suggestions d'amélioration, ou souhaitez demander de nouveaux composants, n'hésitez pas à déposer une issue sur le dépôt GitHub.
+If you encounter problems, have improvement suggestions, or would like to request new components, feel free to open an issue on the GitHub repository.
 
-## Licence
+## License
 
-Ce projet est sous licence MIT. Consultez le fichier `LICENSE` pour plus de détails
+This project is licensed under the MIT license. Refer to the `LICENSE` file for more details.
 
 Copyright (c) 2023 Tchoup7790
