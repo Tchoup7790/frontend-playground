@@ -9,6 +9,7 @@ Clonez ce dépôt sur votre machine locale :
 
    ```bash
    git clone https://github.com/votre-utilisateur/frontend-playground.git
+   ```
 
 ## Utilisation
 
@@ -20,6 +21,6 @@ Si vous rencontrez des problèmes, avez des suggestions d'amélioration, ou souh
 
 ## Licence
 
-Ce projet est sous licence MIT. Consultez le fichier `LICENSE`pour plus de détails
+Ce projet est sous licence MIT. Consultez le fichier `LICENSE` pour plus de détails
 
 Copyright (c) 2023 Tchoup7790
