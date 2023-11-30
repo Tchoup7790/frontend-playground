@@ -1,0 +1,94 @@
+input
+{
+    width: 0;
+    height: 0;
+    visibility: hidden;
+}
+
+body
+{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.add_cross_animation
+{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    height: 10rem;
+    width: 11rem;
+    border-radius: 20px;
+    border: 0;
+    cursor: pointer;
+}
+
+.add_cross_animation > p
+{
+    position: relative;
+    font-size: 1.7rem;
+    padding: 0.3rem;
+}
+.add_cross_animation > span 
+{
+    transform: scale(1.5);
+    padding: 0.3rem;
+}
+
+.add_cross_animation:hover > p{
+    display: none;
+}
+
+.add_cross_animation:hover > span 
+{
+    animation: crossTurnstile 1s infinite both;
+}
+
+
+
+
+@keyframes crossTurnstile 
+{
+    0%
+    {
+        transform: rotateZ(0) scale(3);
+    }
+    12.5%
+    {
+        transform: rotateZ(45deg) scale(3);
+    }
+    25%
+    {
+        transform: rotateZ(90deg) scale(3);
+    }    
+    37.5%
+    {
+        transform: rotateZ(135deg) scale(3);   
+    }
+    50%
+    {
+        transform: rotateZ(180deg) scale(3);
+    }
+    62.5%
+    {
+        transform: rotateZ(225deg) scale(3);
+    }
+    75%
+    {
+        transform: rotateZ(270deg) scale(3);
+    }
+    87.5%
+    {
+        transform: rotateZ(312.5deg) scale(3);
+    }
+    100%
+    {
+        transform: rotateZ(360deg) scale(3);
+    }
+}
