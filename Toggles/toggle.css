@@ -95,6 +95,10 @@ input:checked + label::after
 }
 
 @keyframes back_check {
+    35%
+    {
+        width: 23rem;
+    }
     50%
     {
         width: 23rem;

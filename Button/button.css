@@ -1,12 +1,10 @@
-input
-{
+input {
     width: 0;
     height: 0;
     visibility: hidden;
 }
 
-body
-{
+body {
     height: 100vh;
     margin: 0;
     padding: 0;
@@ -16,79 +14,26 @@ body
     justify-content: center;
 }
 
-.add_cross_animation
-{
+.depression_animation {
     display: flex;
     position: relative;
     justify-content: center;
+    background: white;
     align-items: center;
-    height: 10rem;
-    width: 11rem;
-    border-radius: 20px;
-    border: 0;
+    height: 5rem;
+    width: 15rem;
+    border-radius: 3rem;
     cursor: pointer;
+    font-size: 2rem;
+    background: linear-gradient(180deg, #FFF 43.8%, #D7D7D7 100%);
+    border: 1px solid black;
+    transition: .5s;
 }
 
-.add_cross_animation > p
-{
-    position: relative;
-    font-size: 1.7rem;
-    padding: 0.3rem;
-}
-.add_cross_animation > span 
-{
-    transform: scale(1.5);
-    padding: 0.3rem;
+button:hover {
+    box-shadow: 0 4px 3px 1px #FCFCFC, 0 6px 8px #D6D7D9, 0 -4px 4px #CECFD1, 0 -6px 4px #FEFEFE, inset 0 0 3px 3px #CECFD1;
 }
 
-.add_cross_animation:hover > p{
-    display: none;
-}
-
-.add_cross_animation:hover > span 
-{
-    animation: crossTurnstile 1s infinite both;
-}
-
-
-
-
-@keyframes crossTurnstile 
-{
-    0%
-    {
-        transform: rotateZ(0) scale(3);
-    }
-    12.5%
-    {
-        transform: rotateZ(45deg) scale(3);
-    }
-    25%
-    {
-        transform: rotateZ(90deg) scale(3);
-    }    
-    37.5%
-    {
-        transform: rotateZ(135deg) scale(3);   
-    }
-    50%
-    {
-        transform: rotateZ(180deg) scale(3);
-    }
-    62.5%
-    {
-        transform: rotateZ(225deg) scale(3);
-    }
-    75%
-    {
-        transform: rotateZ(270deg) scale(3);
-    }
-    87.5%
-    {
-        transform: rotateZ(312.5deg) scale(3);
-    }
-    100%
-    {
-        transform: rotateZ(360deg) scale(3);
-    }
+button:active {
+    box-shadow: 0 4px 3px 1px #FCFCFC, 0 6px 8px #D6D7D9, 0 -4px 4px #CECFD1, 0 -6px 4px #FEFEFE, inset 0 0 5px 3px #999, inset 0 0 30px #aaa;
 }
