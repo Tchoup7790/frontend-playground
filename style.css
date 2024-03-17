@@ -6,3 +6,51 @@ body
     align-items: center;
     justify-content: center;
 }
+
+button{
+    position: relative;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border: none;
+    padding: 2rem 0;
+    background: none;
+    text-decoration: none;
+    transition: .6 ease-in-out;
+}
+
+button::before{
+    position: absolute;
+    display: flex;
+    content: "";
+    width: 100%;
+    left: 0;
+    top: 1.5rem;
+    transform: scaleX(0);
+    transform-origin: top left;
+    height: 5px;
+    background-color: #000;
+    transition: .6 ease-in-out;
+}
+
+button::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    right: 0;
+    bottom: 1.5rem;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    height: 5px;
+    background-color: #000;
+    transition: .6 ease-in-out;
+}
+
+button:hover::after, button:hover::before{
+        transform: scaleX(1);
+}
+
+a{
+    text-decoration: none;
+}
