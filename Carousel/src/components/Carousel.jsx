@@ -16,11 +16,11 @@ import AssideCard from "./AssideCard";
  */
 function Carousel() {
   const [currentMovie, setCurrentMovie] = useState(0);
-  const length = movies.length;
+  const length = movies.length-1;
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setCurrentMovie((prev) => (prev === length - 1 ? 0 : prev + 1));
+      setCurrentMovie((prev) => (prev === length ? 0 : prev + 1));
     }, 10000);
 
     return () => clearTimeout(interval);
@@ -41,8 +41,8 @@ function Carousel() {
           />
       ))}
     </motion.div>
-    <AssideCard poster={movies[(currentMovie===length-1)? 0:currentMovie+1].poster} setCurrentMovie={setCurrentMovie} last={currentMovie===length}/>
-    <SliderCarousel currentMovie={currentMovie} length={length} setCurrentMovie={setCurrentMovie}/>
+    <AssideCard poster={movies[(currentMovie===length)? 0:currentMovie+1].poster} setCurrentMovie={setCurrentMovie} last={currentMovie===length}/>
+    <SliderCarousel currentMovie={currentMovie} length={length+1} setCurrentMovie={setCurrentMovie}/>
     </>
   );
 }
