@@ -1,0 +1,20 @@
+@font-face {
+    src: url("./assets/Helvetica.ttc");
+    font-family: 'Helvetica';
+  }
+  
+  @font-face {
+    src: url("./assets/NetflixSans.otf");
+    font-family: 'Netflix';
+  }
+
+@import "./assets/colors";  
+@import "./assets/base";
+@import "./assets/keyframes";
+@import "./assets/reset";
+@import "./assets/typo";
+
+@import "./components/carousel";
+@import "./components/mainCard";
+@import "./components/dotSlider";
+@import "./components/assideCard";

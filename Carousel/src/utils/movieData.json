@@ -1,0 +1,58 @@
+[
+    {
+        "title": "Blade Runner 2048",
+        "description": "A young blade runner's discovery of a long-buried secret leads him to track down former blade runner Rick Deckard, who's been missing for thirty years.",
+        "year": "2017",
+        "poster": "../src/assets/films/bladerunner.jpeg",
+        "trailer":"gCcx85zbxz4?si=2e4nCHIj4apwjQ8o"
+    },
+    {
+        "title": "Dune",
+        "description": "Feature adaptation of Frank Herbert's science fiction novel, about the son of a noble family entrusted with the protection of the most valuable asset and most vital element in the galaxy.",
+        "year": "2021",
+        "poster": "../src/assets/films/dune.jpeg",
+        "trailer": "n9xhJrPXop4?si=q1QXouxEntJIWSjQ"
+    },
+    {
+        "title": "Joker",
+        "description": "It tells, in an original story, the transformation of Arthur Fleck into Joker, a dangerous psychopathic killer who will subsequently become Batman's greatest enemy.",
+        "year": "2019",
+        "poster": "../src/assets/films/joker.jpeg",
+        "trailer" : "t433PEQGErc?si=yqfcdmkQxyqIGvxP"
+    },
+    {
+        "title": "Le parrain",
+        "description": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
+        "year": "1972",
+        "poster": "../src/assets/films/leparrain.jpeg",
+        "trailer":"bmtuIhesQWA?si=iSZEQpoGKvgorzrf"
+    },
+    {
+        "title": "Rebelle",
+        "description": "The story takes place in an imaginary kingdom in medieval Scotland. Princess Mérida, an independent young girl who refuses to marry, accidentally turns her mother into a bear following an argument and must find a way to save both her mother and the kingdom without giving up her ideal of life.",
+        "year": "2012",
+        "poster": "../src/assets/films/rebelle.jpeg",
+        "trailer":"-DzVEKgwnA0?si=EVZDFItCZUMRAg3x"
+    },
+    {
+        "title": "Avengers",
+        "description": "Nick Fury, director of the international peacekeeping agency known as SHIELD, recruits a team of superheroes to save the world from an unexpected enemy.",
+        "year": "2012",
+        "poster": "../src/assets/films/avengers.jpeg",
+        "trailer":"b-kTeJhHOhc?si=G9B37gKpyQdCa_iK"
+    },
+    {
+        "title": "Oppenheimer",
+        "description": "The story of the development of the atomic bomb by the Manhattan Project during World War II.",
+        "year": "2023",
+        "poster": "../src/assets/films/oppenheimer.jpeg",
+        "trailer":"bK6ldnjE3Y0?si=ll90o9ttOdNqvCt9"
+    },
+    {
+        "title": "Shrek",
+        "description": "Shrek, an ogre who lives in a swamp, sees his life turned upside down when a horde of fairy tale characters are exiled to his land by the evil Lord Farquaad. To get his peace back, Shrek makes a deal with the tyrant: he will rescue Princess Fiona, Farquaad's future wife, from a tower guarded by a dragon, in exchange for the eviction of the intruders.",
+        "year": "2001",
+        "poster": "../src/assets/films/shrek.jpeg",
+        "trailer":"lNfei4YCZ5o?si=srS9-1hELFHJLTJ_"
+    }
+]
