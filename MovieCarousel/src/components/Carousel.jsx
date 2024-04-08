@@ -11,7 +11,6 @@ import AssideCard from "./AssideCard";
  * Carousel component
  *
  * @module Carousel
- * @param {number} currentMovie
  * @returns {JSX.Element}
  */
 function Carousel() {

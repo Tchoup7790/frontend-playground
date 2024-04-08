@@ -1,0 +1,12 @@
+body {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  height: fit-content;
+  justify-content: center;
+  align-content: center;
+  overflow-x: hidden;
+  background: url("./assets/degrad.png"), $bg-color;
+  background-clip: fill;
+  background-size: 100%;
+}
